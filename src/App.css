@@ -37,10 +37,11 @@
   }
 }
 .container{
-  color:lightcoral;
+  color:rgb(51, 7, 7);
   background-color: aquamarine;
   padding:5px;
   border-radius:10px;
+  margin: 10px;
 }
 .person{
   background-color: cadetblue;

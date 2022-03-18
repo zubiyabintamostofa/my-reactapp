@@ -10,8 +10,11 @@ function App() {
       <Person></Person>
       <Person></Person>
       <Person></Person>
-      <h5>New component</h5>
-      <friend></friend>
+      <h3>New component Yaaa</h3>
+      <Friend></Friend>
+      <Friend></Friend>
+      <Friend></Friend>
+      <Friend></Friend>
     </div>
   )
 }
@@ -24,9 +27,9 @@ function Person(){
   )
 }
 
-function friend(){
+function Friend(){
   return(
-    <div>
+    <div className='container'>
       <h3>Name:Bini</h3>
       <p>job:Doctor</p>
     </div>
