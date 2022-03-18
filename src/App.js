@@ -5,33 +5,32 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Person></Person>
-      <Person></Person>
-      <Person></Person>
-      <Person></Person>
-      <Person></Person>
+      <Person name="jini" actor=" Dulkar salman"></Person>
+      <Person name="mimi" actor="allu arjun"></Person>
+      <Person name="simi"></Person>
       <h3>New component Yaaa</h3>
-      <Friend></Friend>
-      <Friend></Friend>
-      <Friend></Friend>
-      <Friend></Friend>
+      <Friend name="joli" favFood="misty"></Friend>
+      <Friend name="koli" favFood="biriani"></Friend>
+       
     </div>
   )
 }
-function Person(){
+function Person(props)
+{  //console.log(props)
   return (
     <div className="person">
-    <h1>Zubiya Binta Mostofa</h1>
-    <p>profession:Engineer</p>
+    <h1> Name:{props.name}</h1>
+    <p>Actor:{props.actor}</p>
   </div>
   )
 }
 
-function Friend(){
+function Friend(props){
+  console.log(props)
   return(
     <div className='container'>
-      <h3>Name:Bini</h3>
-      <p>job:Doctor</p>
+      <h3>Name:{props.name}</h3>
+      <p>Fav-Food:{props.favFood}</p>
     </div>
   )
 }
