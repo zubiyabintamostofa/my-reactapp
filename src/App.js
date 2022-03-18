@@ -13,7 +13,7 @@ function App() {
       <h5>New component</h5>
       <friend></friend>
     </div>
-  );
+  )
 }
 function Person(){
   return (
